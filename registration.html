@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        .cent {
+            text-align: center;
+        }
+    </style>
+    <p class="cent"><a href="index.html"><img src="img/logo.png" alt="aquila" width="450"></a></p>
+    <h1 class="cent"><b>Astra Militarum</b></h1>
+    <nav>
+        <a href="index.html"><b>General</b></a>
+        <a href="registration.html"><b>Registration</b></a>
+    </nav>
+</head>
+
+<body>
+    <h2 class="cent">In the Emperor's name onwards to victory!</h2>
+    <h3>Sign up for eternal glory!</h3>
+    <img src="img/prop.jpg" alt="PROP" width="400">
+    <form action="#">
+        <p><label><input type="text" required autofocus placeholder="John"> Name</label></p>
+        <p><label><input type="text" required placeholder="Deer"> Surname</label></p>
+        <p><label><input type="email" required placeholder="example@voxmail.im"> Vox-mail adress</label></p>
+        <p><label><input type="password" required minlength="16" maxlength="32" placeholder="*************"> Password</label></p>
+        <p><label><input type="password" required minlength="16" maxlength="32" placeholder="*************"> Password confirmation</label></p>
+        <p><label><input type="date" required> Birthdate</label></p>
+        <p><b>Gender</b></p>
+        <p>
+            <label><input type="radio" checked id="Gender1" name="GenderRadio"> Male </label>
+            <label><input type="radio" id="Gender2" name="GenderRadio"> Female</label>
+            <label><input type="radio" id="Gender3" name="GenderRadio"> Xeno</label>
+        </p>
+        <p><b>Choose regiment</b></p>
+        <select>
+            <option>Armageddon Steel Legion</option>
+            <option>Attilan Rough Riders</option>
+            <option>Cadian Shock Troopers</option>
+            <option>Catachan Jungle Fighters</option>
+            <option>Death Korps of Krieg</option>
+            <option>Elysian Drop Troops</option>
+            <option>Mordian Iron Guard</option>
+            <option>Tallarn Desert Raiders</option>
+            <option>Tanith First and Only</option>
+            <option>Valhallan Ice Warriors</option>
+            <option>Vostroyan Firstborn</option>
+        </select>
+
+        <p><b>Receive info about invasions</b></p>
+        <p><label><input type="checkbox" checked> Tyranids</label></p>
+        <p><label><input type="checkbox" checked> Orks</label></p>
+        <p><label><input type="checkbox" checked> Eldar</label></p>
+        <p><label><input type="checkbox" checked> Chaos</label></p>
+        <p>
+            <button type="submit">Send to Administratum</button>
+            <button type="reset">Refuse</button>
+        </p>
+
+    </form>
+</body>
+<footer>
+    <p class="cent"><i><b>Success is commemorated; Failure merely remembered.</b></i></p>
+</footer>
+
+</html>
