@@ -4,12 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">    
         <title>Registration</title>
-        <p class="cent"><a href="index.html"><img src="img/logo.png" alt="aquila" width="450"></a></p>
+        <div class="cent"><a href="index.html"><img src="img/logo.png" alt="aquila" width="450"></a></div>
         <h1 class="hdr1"><b>Astra Militarum</b></h1>
-        <nav class="navFormat">
-            <a href="index.html"><b>General</b></a>
-            <a href="registration.html"><b>Registration</b></a>
+        <nav>
+            <button class="navButton"><a href="index.html"><b>General</b></a></button>
+            <button class="navButton"><a href="registration.html"><b>Registration</b></a></button> 
         </nav>
     </head>
 
@@ -49,15 +52,16 @@
             <p><label><input type="checkbox" checked> Tyranids</label></p>
             <p><label><input type="checkbox" checked> Orks</label></p>
             <p><label><input type="checkbox" checked> Eldar</label></p>
-            <p><label><input type="checkbox" checked> Chaos</label></p>
+            <p><label><input type="1heckbox" checked> Chaos</label></p>
             <p>
-                <button type="submit">Send to Administratum</button>
-                <button type="reset">Refuse</button>
+                <button class="myButton" type="submit">Send to Administratum</button>
+                <button class="myButton" type="reset">Refuse</button>
             </p>
 
         </form>
     </body>
     <footer>
-        <p class="cent"><i><b>Success is commemorated; Failure merely remembered.</b></i></p>
+        <p class="cent"><i><b>Success is commemorated; Failure merely remembered. (все права защищены 2023)</b></i></p>
     </footer>
+    <script src="js/reg.js"></script>
 </html>
